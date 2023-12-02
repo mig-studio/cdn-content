@@ -1,0 +1,1 @@
+This is a test for CDN content delivery
