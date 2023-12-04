@@ -1,0 +1,604 @@
+[19/04/2022 14:21:46] [PID:12366] [shop_priceuploader.pl:3239] - INFO: =======================================
+[19/04/2022 14:21:47] [PID:12366] [UWorkers.pm:307] - INFO: Added worker 12368
+[19/04/2022 14:21:47] [PID:12366] [shop_priceuploader.pl:3293] - INFO: Worker 12368 runned for >>>---< mig-studio.com.ua >--->>> conf_id: 0
+[19/04/2022 14:21:49] [PID:12368] [shop_priceuploader.pl:3285] - INFO: Child started. Your worker 12368 started
+[19/04/2022 14:21:50] [PID:12368] [shop_priceuploader.pl:3312] - INFO: Launch by user command - Configuration #0 locked
+[19/04/2022 14:21:50] [PID:12368] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 12368
+[19/04/2022 14:21:50] [PID:12368] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[19/04/2022 14:21:51] [PID:12368] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.832 s./
+[19/04/2022 14:21:52] [PID:12368] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[19/04/2022 14:21:52] [PID:12368] [shop_priceuploader.pl:2332] - INFO: Load goods(0) & cats(0) hashes to memory / 0.006 s./
+[19/04/2022 14:21:52] [PID:12368] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.104 s./ Found currencies: 1; categories: 1; offers: 213;
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2160] - INFO: New goods: 213
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2167] - INFO: End of store / 0.250 s./ New goods(213) 0.003 s./ New hashes(214) 0.000 s./
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2201] - INFO: Load data shop / 0.065 s./ Rows: 213
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2201] - INFO: Load data shop_cat / 0.001 s./ Rows: 1
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2201] - INFO: Load data shop_hash / 0.002 s./ Rows: 214
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.023 s./ Affected: 98
+[19/04/2022 14:21:54] [PID:12368] [shop_priceuploader.pl:2246] - INFO: End of store process
+[19/04/2022 14:21:55] [PID:12368] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[19/04/2022 14:21:55] [PID:12368] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_load_shop_hash' => '0.002',
+  'time_load_shop' => '0.065',
+  'time_download' => '0.832',
+  'time_parse' => '2.104',
+  'err' => '',
+  'time_store' => '0.250',
+  'time_recalc' => '0.023',
+  'time_load_shop_cat' => '0.001',
+  'time_unzip' => 0
+}
+[19/04/2022 14:21:55] [PID:12368] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[19/04/2022 15:00:21] [PID:15951] [shop_priceuploader.pl:3239] - INFO: =======================================
+[19/04/2022 15:00:22] [PID:15951] [UWorkers.pm:307] - INFO: Added worker 15953
+[19/04/2022 15:00:22] [PID:15951] [shop_priceuploader.pl:3293] - INFO: Worker 15953 runned for >>>---< mig-studio.com.ua >--->>> conf_id: 0
+[19/04/2022 15:00:24] [PID:15953] [shop_priceuploader.pl:3285] - INFO: Child started. Your worker 15953 started
+[19/04/2022 15:00:25] [PID:15953] [shop_priceuploader.pl:3312] - INFO: Launch by user command - Configuration #0 locked
+[19/04/2022 15:00:25] [PID:15953] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 15953
+[19/04/2022 15:00:25] [PID:15953] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[19/04/2022 15:00:26] [PID:15953] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.550 s./
+[19/04/2022 15:00:27] [PID:15953] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[19/04/2022 15:00:27] [PID:15953] [shop_priceuploader.pl:2332] - INFO: Load goods(213) & cats(1) hashes to memory / 0.007 s./
+[19/04/2022 15:00:27] [PID:15953] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(213) / 0.040 s./
+[19/04/2022 15:00:27] [PID:15953] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[19/04/2022 15:00:28] [PID:15953] [shop_priceuploader.pl:2138] - INFO: End of parse / 1.750 s./ Found currencies: 1; categories: 1; offers: 153;
+[19/04/2022 15:00:28] [PID:15953] [shop_priceuploader.pl:2154] - INFO: Affected goods: 153
+[19/04/2022 15:00:28] [PID:15953] [shop_priceuploader.pl:2167] - INFO: End of store / 0.237 s./ Updating goods(153) 0.026 s./
+[19/04/2022 15:00:28] [PID:15953] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[19/04/2022 15:00:28] [PID:15953] [shop_priceuploader.pl:2246] - INFO: End of store process
+[19/04/2022 15:00:29] [PID:15953] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[19/04/2022 15:00:29] [PID:15953] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_parse' => '1.750',
+  'time_recalc' => '0.024',
+  'time_unzip' => 0,
+  'time_download' => '0.550',
+  'time_store' => '0.237'
+}
+[19/04/2022 15:00:29] [PID:15953] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[19/04/2022 15:20:42] [PID:18098] [shop_priceuploader.pl:3239] - INFO: =======================================
+[19/04/2022 15:20:43] [PID:18098] [UWorkers.pm:307] - INFO: Added worker 18101
+[19/04/2022 15:20:43] [PID:18098] [shop_priceuploader.pl:3293] - INFO: Worker 18101 runned for >>>---< mig-studio.com.ua >--->>> conf_id: 0
+[19/04/2022 15:20:45] [PID:18101] [shop_priceuploader.pl:3285] - INFO: Child started. Your worker 18101 started
+[19/04/2022 15:20:46] [PID:18101] [shop_priceuploader.pl:3312] - INFO: Launch by user command - Configuration #0 locked
+[19/04/2022 15:20:46] [PID:18101] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 18101
+[19/04/2022 15:20:46] [PID:18101] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[19/04/2022 15:20:46] [PID:18101] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.572 s./
+[19/04/2022 15:20:47] [PID:18101] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[19/04/2022 15:20:47] [PID:18101] [shop_priceuploader.pl:2332] - INFO: Load goods(213) & cats(1) hashes to memory / 0.007 s./
+[19/04/2022 15:20:47] [PID:18101] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(213) / 0.035 s./
+[19/04/2022 15:20:47] [PID:18101] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[19/04/2022 15:20:48] [PID:18101] [shop_priceuploader.pl:2138] - INFO: End of parse / 1.761 s./ Found currencies: 1; categories: 1; offers: 153;
+[19/04/2022 15:20:48] [PID:18101] [shop_priceuploader.pl:2154] - INFO: Affected goods: 153
+[19/04/2022 15:20:48] [PID:18101] [shop_priceuploader.pl:2167] - INFO: End of store / 0.240 s./ Updating goods(153) 0.027 s./
+[19/04/2022 15:20:48] [PID:18101] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[19/04/2022 15:20:48] [PID:18101] [shop_priceuploader.pl:2246] - INFO: End of store process
+[19/04/2022 15:20:49] [PID:18101] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[19/04/2022 15:20:49] [PID:18101] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_unzip' => 0,
+  'time_download' => '0.572',
+  'time_recalc' => '0.024',
+  'time_store' => '0.240',
+  'err' => '',
+  'time_parse' => '1.761'
+}
+[19/04/2022 15:20:49] [PID:18101] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/04/2022 13:18:21] [PID:22280] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/04/2022 13:18:22] [PID:22280] [UWorkers.pm:307] - INFO: Added worker 22288
+[21/04/2022 13:18:22] [PID:22280] [shop_priceuploader.pl:3293] - INFO: Worker 22288 runned for >>>---< mig-studio.com.ua >--->>> conf_id: 0
+[21/04/2022 13:18:24] [PID:22288] [shop_priceuploader.pl:3285] - INFO: Child started. Your worker 22288 started
+[21/04/2022 13:18:25] [PID:22288] [shop_priceuploader.pl:3312] - INFO: Launch by user command - Configuration #0 locked
+[21/04/2022 13:18:25] [PID:22288] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 22288
+[21/04/2022 13:18:25] [PID:22288] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/04/2022 13:18:26] [PID:22288] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.611 s./
+[21/04/2022 13:18:27] [PID:22288] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/04/2022 13:18:27] [PID:22288] [shop_priceuploader.pl:2332] - INFO: Load goods(51) & cats(0) hashes to memory / 0.007 s./
+[21/04/2022 13:18:27] [PID:22288] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(51) / 0.025 s./
+[21/04/2022 13:18:27] [PID:22288] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.471 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2154] - INFO: Affected goods: 51
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2160] - INFO: New goods: 252
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2167] - INFO: End of store / 0.357 s./ Updating goods(51) 0.019 s./ New goods(252) 0.004 s./ New hashes(253) 0.001 s./
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2201] - INFO: Load data shop / 0.029 s./ Rows: 252
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2201] - INFO: Load data shop_cat / 0.001 s./ Rows: 1
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2201] - INFO: Load data shop_hash / 0.003 s./ Rows: 253
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/04/2022 13:18:29] [PID:22288] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/04/2022 13:18:30] [PID:22288] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/04/2022 13:18:30] [PID:22288] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_load_shop_cat' => '0.001',
+  'time_download' => '0.611',
+  'time_load_shop_hash' => '0.003',
+  'time_store' => '0.357',
+  'time_unzip' => 0,
+  'time_recalc' => '0.024',
+  'err' => '',
+  'time_load_shop' => '0.029',
+  'time_parse' => '2.471'
+}
+[21/04/2022 13:18:30] [PID:22288] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/05/2022 13:30:12] [PID:13642] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/05/2022 13:30:14] [PID:13642] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/05/2022 13:30:14] [PID:13642] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/05/2022 13:30:14] [PID:13642] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/05/2022 13:30:15] [PID:13642] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 1.205 s./
+[21/05/2022 13:30:16] [PID:13642] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/05/2022 13:30:16] [PID:13642] [shop_priceuploader.pl:2332] - INFO: Load goods(152) & cats(1) hashes to memory / 0.031 s./
+[21/05/2022 13:30:16] [PID:13642] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(152) / 0.076 s./
+[21/05/2022 13:30:16] [PID:13642] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.514 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2154] - INFO: Affected goods: 152
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2160] - INFO: New goods: 151
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2167] - INFO: End of store / 0.424 s./ Updating goods(152) 0.039 s./ New goods(151) 0.002 s./ New hashes(151) 0.001 s./
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2201] - INFO: Load data shop / 0.053 s./ Rows: 151
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2201] - INFO: Load data shop_hash / 0.002 s./ Rows: 151
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.045 s./ Affected: 98
+[21/05/2022 13:30:18] [PID:13642] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/05/2022 13:30:19] [PID:13642] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/05/2022 13:30:19] [PID:13642] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_store' => '0.424',
+  'time_parse' => '2.514',
+  'time_load_shop_hash' => '0.002',
+  'time_unzip' => 0,
+  'err' => '',
+  'time_download' => '1.205',
+  'time_recalc' => '0.045',
+  'time_load_shop' => '0.053'
+}
+[21/05/2022 13:30:19] [PID:13642] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/06/2022 14:30:11] [PID:27863] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/06/2022 14:30:13] [PID:27863] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/06/2022 14:30:13] [PID:27863] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/06/2022 14:30:13] [PID:27863] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/06/2022 14:30:14] [PID:27863] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.768 s./
+[21/06/2022 14:30:15] [PID:27863] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/06/2022 14:30:15] [PID:27863] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.039 s./
+[21/06/2022 14:30:15] [PID:27863] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.093 s./
+[21/06/2022 14:30:15] [PID:27863] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/06/2022 14:30:17] [PID:27863] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.493 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/06/2022 14:30:17] [PID:27863] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/06/2022 14:30:17] [PID:27863] [shop_priceuploader.pl:2167] - INFO: End of store / 0.477 s./ Updating goods(303) 0.054 s./
+[21/06/2022 14:30:17] [PID:27863] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/06/2022 14:30:17] [PID:27863] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/06/2022 14:30:18] [PID:27863] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/06/2022 14:30:18] [PID:27863] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_store' => '0.477',
+  'time_parse' => '2.493',
+  'time_recalc' => '0.024',
+  'time_download' => '0.768',
+  'time_unzip' => 0
+}
+[21/06/2022 14:30:18] [PID:27863] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/07/2022 15:30:12] [PID:32046] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/07/2022 15:30:14] [PID:32046] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/07/2022 15:30:14] [PID:32046] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/07/2022 15:30:14] [PID:32046] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/07/2022 15:30:16] [PID:32046] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 1.620 s./
+[21/07/2022 15:30:17] [PID:32046] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/07/2022 15:30:17] [PID:32046] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.037 s./
+[21/07/2022 15:30:17] [PID:32046] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.089 s./
+[21/07/2022 15:30:17] [PID:32046] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/07/2022 15:30:19] [PID:32046] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.537 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/07/2022 15:30:19] [PID:32046] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/07/2022 15:30:19] [PID:32046] [shop_priceuploader.pl:2167] - INFO: End of store / 0.497 s./ Updating goods(303) 0.060 s./
+[21/07/2022 15:30:19] [PID:32046] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/07/2022 15:30:19] [PID:32046] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/07/2022 15:30:20] [PID:32046] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/07/2022 15:30:20] [PID:32046] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_recalc' => '0.024',
+  'time_store' => '0.497',
+  'time_download' => '1.620',
+  'err' => '',
+  'time_parse' => '2.537',
+  'time_unzip' => 0
+}
+[21/07/2022 15:30:20] [PID:32046] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/08/2022 16:30:12] [PID:13771] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/08/2022 16:30:14] [PID:13771] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/08/2022 16:30:14] [PID:13771] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/08/2022 16:30:14] [PID:13771] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/08/2022 16:30:15] [PID:13771] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.778 s./
+[21/08/2022 16:30:16] [PID:13771] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/08/2022 16:30:16] [PID:13771] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.054 s./
+[21/08/2022 16:30:16] [PID:13771] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.164 s./
+[21/08/2022 16:30:16] [PID:13771] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/08/2022 16:30:18] [PID:13771] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.643 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/08/2022 16:30:18] [PID:13771] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/08/2022 16:30:18] [PID:13771] [shop_priceuploader.pl:2167] - INFO: End of store / 0.645 s./ Updating goods(303) 0.205 s./
+[21/08/2022 16:30:18] [PID:13771] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.023 s./ Affected: 98
+[21/08/2022 16:30:18] [PID:13771] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/08/2022 16:30:19] [PID:13771] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/08/2022 16:30:19] [PID:13771] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_unzip' => 0,
+  'err' => '',
+  'time_download' => '0.778',
+  'time_store' => '0.645',
+  'time_recalc' => '0.023',
+  'time_parse' => '2.643'
+}
+[21/08/2022 16:30:19] [PID:13771] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/09/2022 17:30:11] [PID:6788] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/09/2022 17:30:14] [PID:6788] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/09/2022 17:30:14] [PID:6788] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/09/2022 17:30:14] [PID:6788] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/09/2022 17:30:14] [PID:6788] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.846 s./
+[21/09/2022 17:30:15] [PID:6788] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/09/2022 17:30:15] [PID:6788] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.018 s./
+[21/09/2022 17:30:15] [PID:6788] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.060 s./
+[21/09/2022 17:30:15] [PID:6788] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/09/2022 17:30:17] [PID:6788] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.476 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/09/2022 17:30:17] [PID:6788] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/09/2022 17:30:17] [PID:6788] [shop_priceuploader.pl:2167] - INFO: End of store / 0.495 s./ Updating goods(303) 0.066 s./
+[21/09/2022 17:30:17] [PID:6788] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/09/2022 17:30:17] [PID:6788] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/09/2022 17:30:18] [PID:6788] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/09/2022 17:30:18] [PID:6788] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_unzip' => 0,
+  'time_recalc' => '0.024',
+  'time_store' => '0.495',
+  'time_download' => '0.846',
+  'time_parse' => '2.476',
+  'err' => ''
+}
+[21/09/2022 17:30:18] [PID:6788] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/10/2022 18:30:11] [PID:27196] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/10/2022 18:30:13] [PID:27196] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/10/2022 18:30:13] [PID:27196] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/10/2022 18:30:13] [PID:27196] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/10/2022 18:30:14] [PID:27196] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.972 s./
+[21/10/2022 18:30:15] [PID:27196] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/10/2022 18:30:15] [PID:27196] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.049 s./
+[21/10/2022 18:30:15] [PID:27196] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.103 s./
+[21/10/2022 18:30:15] [PID:27196] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/10/2022 18:30:17] [PID:27196] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.532 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/10/2022 18:30:17] [PID:27196] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/10/2022 18:30:17] [PID:27196] [shop_priceuploader.pl:2167] - INFO: End of store / 0.489 s./ Updating goods(303) 0.057 s./
+[21/10/2022 18:30:17] [PID:27196] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.025 s./ Affected: 98
+[21/10/2022 18:30:17] [PID:27196] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/10/2022 18:30:18] [PID:27196] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/10/2022 18:30:18] [PID:27196] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_store' => '0.489',
+  'time_recalc' => '0.025',
+  'time_parse' => '2.532',
+  'time_download' => '0.972',
+  'err' => '',
+  'time_unzip' => 0
+}
+[21/10/2022 18:30:18] [PID:27196] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/11/2022 19:30:11] [PID:26814] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/11/2022 19:30:13] [PID:26814] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/11/2022 19:30:13] [PID:26814] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/11/2022 19:30:13] [PID:26814] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/11/2022 19:30:14] [PID:26814] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 1.186 s./
+[21/11/2022 19:30:15] [PID:26814] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/11/2022 19:30:16] [PID:26814] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.044 s./
+[21/11/2022 19:30:16] [PID:26814] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.098 s./
+[21/11/2022 19:30:16] [PID:26814] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/11/2022 19:30:17] [PID:26814] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.524 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/11/2022 19:30:17] [PID:26814] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/11/2022 19:30:17] [PID:26814] [shop_priceuploader.pl:2167] - INFO: End of store / 0.475 s./ Updating goods(303) 0.054 s./
+[21/11/2022 19:30:18] [PID:26814] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.023 s./ Affected: 98
+[21/11/2022 19:30:18] [PID:26814] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/11/2022 19:30:19] [PID:26814] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/11/2022 19:30:19] [PID:26814] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'time_download' => '1.186',
+  'err' => '',
+  'time_store' => '0.475',
+  'time_parse' => '2.524',
+  'time_unzip' => 0,
+  'time_recalc' => '0.023'
+}
+[21/11/2022 19:30:19] [PID:26814] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/12/2022 20:30:11] [PID:3206] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/12/2022 20:30:13] [PID:3206] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/12/2022 20:30:13] [PID:3206] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/12/2022 20:30:13] [PID:3206] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/12/2022 20:30:14] [PID:3206] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.754 s./
+[21/12/2022 20:30:15] [PID:3206] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/12/2022 20:30:15] [PID:3206] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.117 s./
+[21/12/2022 20:30:15] [PID:3206] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.176 s./
+[21/12/2022 20:30:15] [PID:3206] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/12/2022 20:30:17] [PID:3206] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.557 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/12/2022 20:30:17] [PID:3206] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/12/2022 20:30:17] [PID:3206] [shop_priceuploader.pl:2167] - INFO: End of store / 0.451 s./ Updating goods(303) 0.056 s./
+[21/12/2022 20:30:17] [PID:3206] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.154 s./ Affected: 98
+[21/12/2022 20:30:17] [PID:3206] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/12/2022 20:30:18] [PID:3206] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/12/2022 20:30:18] [PID:3206] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.754',
+  'time_parse' => '2.557',
+  'time_recalc' => '0.154',
+  'time_store' => '0.451',
+  'time_unzip' => 0
+}
+[21/12/2022 20:30:18] [PID:3206] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/01/2023 21:30:11] [PID:26165] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/01/2023 21:30:13] [PID:26165] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/01/2023 21:30:13] [PID:26165] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/01/2023 21:30:13] [PID:26165] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/01/2023 21:30:14] [PID:26165] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.893 s./
+[21/01/2023 21:30:15] [PID:26165] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/01/2023 21:30:15] [PID:26165] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.130 s./
+[21/01/2023 21:30:15] [PID:26165] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.206 s./
+[21/01/2023 21:30:15] [PID:26165] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/01/2023 21:30:17] [PID:26165] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.613 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/01/2023 21:30:17] [PID:26165] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/01/2023 21:30:17] [PID:26165] [shop_priceuploader.pl:2167] - INFO: End of store / 0.481 s./ Updating goods(303) 0.057 s./
+[21/01/2023 21:30:17] [PID:26165] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/01/2023 21:30:17] [PID:26165] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/01/2023 21:30:18] [PID:26165] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/01/2023 21:30:18] [PID:26165] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.893',
+  'time_parse' => '2.613',
+  'time_recalc' => '0.024',
+  'time_store' => '0.481',
+  'time_unzip' => 0
+}
+[21/01/2023 21:30:18] [PID:26165] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/02/2023 22:30:12] [PID:27178] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/02/2023 22:30:14] [PID:27178] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/02/2023 22:30:14] [PID:27178] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/02/2023 22:30:14] [PID:27178] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/02/2023 22:30:15] [PID:27178] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.772 s./
+[21/02/2023 22:30:16] [PID:27178] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/02/2023 22:30:16] [PID:27178] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.029 s./
+[21/02/2023 22:30:16] [PID:27178] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.088 s./
+[21/02/2023 22:30:16] [PID:27178] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/02/2023 22:30:18] [PID:27178] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.514 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/02/2023 22:30:18] [PID:27178] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/02/2023 22:30:18] [PID:27178] [shop_priceuploader.pl:2167] - INFO: End of store / 0.475 s./ Updating goods(303) 0.054 s./
+[21/02/2023 22:30:18] [PID:27178] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/02/2023 22:30:18] [PID:27178] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/02/2023 22:30:19] [PID:27178] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/02/2023 22:30:19] [PID:27178] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.772',
+  'time_parse' => '2.514',
+  'time_recalc' => '0.024',
+  'time_store' => '0.475',
+  'time_unzip' => 0
+}
+[21/02/2023 22:30:19] [PID:27178] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[21/03/2023 23:30:11] [PID:20011] [shop_priceuploader.pl:3239] - INFO: =======================================
+[21/03/2023 23:30:13] [PID:20011] [shop_priceuploader.pl:3312] - INFO: Scheduled launch - Configuration #0 locked
+[21/03/2023 23:30:13] [PID:20011] [shop_priceuploader.pl:3327] - INFO: Beginning of the sub yml_import - pid: 0
+[21/03/2023 23:30:13] [PID:20011] [shop_priceuploader.pl:1869] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[21/03/2023 23:30:14] [PID:20011] [shop_priceuploader.pl:1916] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.832 s./
+[21/03/2023 23:30:15] [PID:20011] [shop_priceuploader.pl:2007] - INFO: YML in UTF-8 encoding
+[21/03/2023 23:30:15] [PID:20011] [shop_priceuploader.pl:2332] - INFO: Load goods(303) & cats(1) hashes to memory / 0.044 s./
+[21/03/2023 23:30:15] [PID:20011] [shop_priceuploader.pl:2403] - INFO: Hide all earlier imported goods(303) / 0.089 s./
+[21/03/2023 23:30:15] [PID:20011] [shop_priceuploader.pl:2417] - INFO: Starting to read & parse
+[21/03/2023 23:30:17] [PID:20011] [shop_priceuploader.pl:2138] - INFO: End of parse / 2.555 s./ Found currencies: 1; categories: 1; offers: 303;
+[21/03/2023 23:30:17] [PID:20011] [shop_priceuploader.pl:2154] - INFO: Affected goods: 303
+[21/03/2023 23:30:17] [PID:20011] [shop_priceuploader.pl:2167] - INFO: End of store / 0.484 s./ Updating goods(303) 0.056 s./
+[21/03/2023 23:30:17] [PID:20011] [shop_priceuploader.pl:2226] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[21/03/2023 23:30:17] [PID:20011] [shop_priceuploader.pl:2246] - INFO: End of store process
+[21/03/2023 23:30:18] [PID:20011] [shop_priceuploader.pl:3348] - INFO: Unlocking configuration 0
+[21/03/2023 23:30:18] [PID:20011] [shop_priceuploader.pl:3349] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.832',
+  'time_parse' => '2.555',
+  'time_recalc' => '0.024',
+  'time_store' => '0.484',
+  'time_unzip' => 0
+}
+[21/03/2023 23:30:18] [PID:20011] [shop_priceuploader.pl:3360] - INFO: Works ends (code: 0)
+[22/04/2023 00:30:11] [PID:32453] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/04/2023 00:30:13] [PID:32453] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/04/2023 00:30:13] [PID:32453] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/04/2023 00:30:13] [PID:32453] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/04/2023 00:30:14] [PID:32453] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.898 s./
+[22/04/2023 00:30:15] [PID:32453] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/04/2023 00:30:15] [PID:32453] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.033 s./
+[22/04/2023 00:30:15] [PID:32453] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.089 s./
+[22/04/2023 00:30:15] [PID:32453] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/04/2023 00:30:17] [PID:32453] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.479 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/04/2023 00:30:17] [PID:32453] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/04/2023 00:30:17] [PID:32453] [shop_priceuploader.pl:2176] - INFO: End of store / 0.453 s./ Updating goods(303) 0.051 s./
+[22/04/2023 00:30:17] [PID:32453] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.050 s./ Affected: 98
+[22/04/2023 00:30:17] [PID:32453] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/04/2023 00:30:18] [PID:32453] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/04/2023 00:30:18] [PID:32453] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.898',
+  'time_parse' => '2.479',
+  'time_recalc' => '0.050',
+  'time_store' => '0.453',
+  'time_unzip' => 0
+}
+[22/04/2023 00:30:18] [PID:32453] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/05/2023 01:30:11] [PID:29041] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/05/2023 01:30:13] [PID:29041] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/05/2023 01:30:14] [PID:29041] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/05/2023 01:30:14] [PID:29041] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/05/2023 01:30:14] [PID:29041] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.946 s./
+[22/05/2023 01:30:15] [PID:29041] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/05/2023 01:30:16] [PID:29041] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.041 s./
+[22/05/2023 01:30:16] [PID:29041] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.088 s./
+[22/05/2023 01:30:16] [PID:29041] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/05/2023 01:30:17] [PID:29041] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.492 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/05/2023 01:30:17] [PID:29041] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/05/2023 01:30:17] [PID:29041] [shop_priceuploader.pl:2176] - INFO: End of store / 0.466 s./ Updating goods(303) 0.060 s./
+[22/05/2023 01:30:17] [PID:29041] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[22/05/2023 01:30:17] [PID:29041] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/05/2023 01:30:18] [PID:29041] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/05/2023 01:30:18] [PID:29041] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.946',
+  'time_parse' => '2.492',
+  'time_recalc' => '0.024',
+  'time_store' => '0.466',
+  'time_unzip' => 0
+}
+[22/05/2023 01:30:18] [PID:29041] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/06/2023 02:30:12] [PID:7723] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/06/2023 02:30:14] [PID:7723] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/06/2023 02:30:14] [PID:7723] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/06/2023 02:30:14] [PID:7723] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/06/2023 02:30:15] [PID:7723] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.838 s./
+[22/06/2023 02:30:16] [PID:7723] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/06/2023 02:30:16] [PID:7723] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.017 s./
+[22/06/2023 02:30:16] [PID:7723] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.058 s./
+[22/06/2023 02:30:16] [PID:7723] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/06/2023 02:30:18] [PID:7723] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.467 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/06/2023 02:30:18] [PID:7723] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/06/2023 02:30:18] [PID:7723] [shop_priceuploader.pl:2176] - INFO: End of store / 0.472 s./ Updating goods(303) 0.060 s./
+[22/06/2023 02:30:18] [PID:7723] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.025 s./ Affected: 98
+[22/06/2023 02:30:18] [PID:7723] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/06/2023 02:30:19] [PID:7723] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/06/2023 02:30:19] [PID:7723] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.838',
+  'time_parse' => '2.467',
+  'time_recalc' => '0.025',
+  'time_store' => '0.472',
+  'time_unzip' => 0
+}
+[22/06/2023 02:30:19] [PID:7723] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/07/2023 03:30:11] [PID:7745] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/07/2023 03:30:13] [PID:7745] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/07/2023 03:30:13] [PID:7745] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/07/2023 03:30:13] [PID:7745] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/07/2023 03:30:14] [PID:7745] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.911 s./
+[22/07/2023 03:30:15] [PID:7745] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/07/2023 03:30:15] [PID:7745] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.049 s./
+[22/07/2023 03:30:15] [PID:7745] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.102 s./
+[22/07/2023 03:30:15] [PID:7745] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/07/2023 03:30:17] [PID:7745] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.485 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/07/2023 03:30:17] [PID:7745] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/07/2023 03:30:17] [PID:7745] [shop_priceuploader.pl:2176] - INFO: End of store / 0.487 s./ Updating goods(303) 0.057 s./
+[22/07/2023 03:30:17] [PID:7745] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.139 s./ Affected: 98
+[22/07/2023 03:30:17] [PID:7745] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/07/2023 03:30:18] [PID:7745] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/07/2023 03:30:18] [PID:7745] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.911',
+  'time_parse' => '2.485',
+  'time_recalc' => '0.139',
+  'time_store' => '0.487',
+  'time_unzip' => 0
+}
+[22/07/2023 03:30:18] [PID:7745] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/08/2023 04:30:16] [PID:22593] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/08/2023 04:30:18] [PID:22593] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/08/2023 04:30:18] [PID:22593] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/08/2023 04:30:18] [PID:22593] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/08/2023 04:30:19] [PID:22593] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.998 s./
+[22/08/2023 04:30:20] [PID:22593] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/08/2023 04:30:20] [PID:22593] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.098 s./
+[22/08/2023 04:30:20] [PID:22593] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.149 s./
+[22/08/2023 04:30:20] [PID:22593] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/08/2023 04:30:22] [PID:22593] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.533 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/08/2023 04:30:22] [PID:22593] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/08/2023 04:30:22] [PID:22593] [shop_priceuploader.pl:2176] - INFO: End of store / 0.435 s./ Updating goods(303) 0.050 s./
+[22/08/2023 04:30:22] [PID:22593] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[22/08/2023 04:30:22] [PID:22593] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/08/2023 04:30:23] [PID:22593] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/08/2023 04:30:23] [PID:22593] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.998',
+  'time_parse' => '2.533',
+  'time_recalc' => '0.024',
+  'time_store' => '0.435',
+  'time_unzip' => 0
+}
+[22/08/2023 04:30:23] [PID:22593] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/09/2023 05:30:11] [PID:4854] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/09/2023 05:30:13] [PID:4854] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/09/2023 05:30:14] [PID:4854] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/09/2023 05:30:14] [PID:4854] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/09/2023 05:30:16] [PID:4854] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 2.289 s./
+[22/09/2023 05:30:17] [PID:4854] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/09/2023 05:30:17] [PID:4854] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.025 s./
+[22/09/2023 05:30:17] [PID:4854] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.101 s./
+[22/09/2023 05:30:17] [PID:4854] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/09/2023 05:30:19] [PID:4854] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.523 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/09/2023 05:30:19] [PID:4854] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/09/2023 05:30:19] [PID:4854] [shop_priceuploader.pl:2176] - INFO: End of store / 0.472 s./ Updating goods(303) 0.065 s./
+[22/09/2023 05:30:19] [PID:4854] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.024 s./ Affected: 98
+[22/09/2023 05:30:19] [PID:4854] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/09/2023 05:30:20] [PID:4854] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/09/2023 05:30:20] [PID:4854] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '2.289',
+  'time_parse' => '2.523',
+  'time_recalc' => '0.024',
+  'time_store' => '0.472',
+  'time_unzip' => 0
+}
+[22/09/2023 05:30:20] [PID:4854] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/10/2023 06:30:12] [PID:15527] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/10/2023 06:30:14] [PID:15527] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/10/2023 06:30:14] [PID:15527] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/10/2023 06:30:14] [PID:15527] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/10/2023 06:30:16] [PID:15527] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 2.089 s./
+[22/10/2023 06:30:17] [PID:15527] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/10/2023 06:30:17] [PID:15527] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.034 s./
+[22/10/2023 06:30:17] [PID:15527] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.130 s./
+[22/10/2023 06:30:17] [PID:15527] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/10/2023 06:30:19] [PID:15527] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.525 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/10/2023 06:30:19] [PID:15527] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/10/2023 06:30:19] [PID:15527] [shop_priceuploader.pl:2176] - INFO: End of store / 0.446 s./ Updating goods(303) 0.055 s./
+[22/10/2023 06:30:19] [PID:15527] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.025 s./ Affected: 98
+[22/10/2023 06:30:19] [PID:15527] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/10/2023 06:30:20] [PID:15527] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/10/2023 06:30:20] [PID:15527] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '2.089',
+  'time_parse' => '2.525',
+  'time_recalc' => '0.025',
+  'time_store' => '0.446',
+  'time_unzip' => 0
+}
+[22/10/2023 06:30:20] [PID:15527] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)
+[22/11/2023 07:30:12] [PID:18571] [shop_priceuploader.pl:3248] - INFO: =======================================
+[22/11/2023 07:30:14] [PID:18571] [shop_priceuploader.pl:3321] - INFO: Scheduled launch - Configuration #0 locked
+[22/11/2023 07:30:14] [PID:18571] [shop_priceuploader.pl:3336] - INFO: Beginning of the sub yml_import - pid: 0
+[22/11/2023 07:30:14] [PID:18571] [shop_priceuploader.pl:1878] - INFO: Need download YML from url https://export.endorphone.com.ua/partners/51829/CUD2ZDt181M6KyEbVL2HmOyNNpPPOsTS_yml.xml
+[22/11/2023 07:30:15] [PID:18571] [shop_priceuploader.pl:1925] - INFO: Download successfully to file: /home/ru/d/tmp/cc7a1e133b816f660943e42f03b1b44e.yml / 0.962 s./
+[22/11/2023 07:30:16] [PID:18571] [shop_priceuploader.pl:2016] - INFO: YML in UTF-8 encoding
+[22/11/2023 07:30:16] [PID:18571] [shop_priceuploader.pl:2341] - INFO: Load goods(303) & cats(1) hashes to memory / 0.052 s./
+[22/11/2023 07:30:16] [PID:18571] [shop_priceuploader.pl:2412] - INFO: Hide all earlier imported goods(303) / 0.102 s./
+[22/11/2023 07:30:16] [PID:18571] [shop_priceuploader.pl:2426] - INFO: Starting to read & parse
+[22/11/2023 07:30:18] [PID:18571] [shop_priceuploader.pl:2147] - INFO: End of parse / 2.566 s./ Found currencies: 1; categories: 1; offers: 303;
+[22/11/2023 07:30:18] [PID:18571] [shop_priceuploader.pl:2163] - INFO: Affected goods: 303
+[22/11/2023 07:30:18] [PID:18571] [shop_priceuploader.pl:2176] - INFO: End of store / 0.482 s./ Updating goods(303) 0.059 s./
+[22/11/2023 07:30:18] [PID:18571] [shop_priceuploader.pl:2235] - INFO: Recalc categories counters / 0.025 s./ Affected: 98
+[22/11/2023 07:30:18] [PID:18571] [shop_priceuploader.pl:2255] - INFO: End of store process
+[22/11/2023 07:30:19] [PID:18571] [shop_priceuploader.pl:3357] - INFO: Unlocking configuration 0
+[22/11/2023 07:30:19] [PID:18571] [shop_priceuploader.pl:3358] - INFO: Process statistics: 
+{
+  'err' => '',
+  'time_download' => '0.962',
+  'time_parse' => '2.566',
+  'time_recalc' => '0.025',
+  'time_store' => '0.482',
+  'time_unzip' => 0
+}
+[22/11/2023 07:30:19] [PID:18571] [shop_priceuploader.pl:3369] - INFO: Works ends (code: 0)

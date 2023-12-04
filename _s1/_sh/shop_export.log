@@ -1,0 +1,18 @@
+[25/07/2016 18:15:35] [PID:6900] [shop_export.pl:272] - Added worker 6916
+[25/07/2016 18:15:35] [PID:6900] [shop_export.pl:1004] - Runned 6916 ...
+[25/07/2016 18:15:35] [PID:6900] [shop_export.pl:1005] - >>>---< mig-studio.com.ua >--->>> conf_id: yml
+[25/07/2016 18:15:37] [PID:6916] [shop_export.pl:994] - Child started. Your worker is 6916
+[25/07/2016 18:15:37] [PID:6916] [shop_export.pl:1019] - START
+[25/07/2016 18:15:37] [PID:6916] [shop_export.pl:1022] - Beginning of the sub export_goods
+[25/07/2016 18:15:45] [PID:6916] [shop_export.pl:1029] - Script gonna finish code 0
+[25/07/2016 18:15:45] [PID:6916] [shop_export.pl:176] - Works ends. 0
+[25/07/2016 18:16:29] [PID:7008] [shop_export.pl:272] - Added worker 7009
+[25/07/2016 18:16:29] [PID:7008] [shop_export.pl:1004] - Runned 7009 ...
+[25/07/2016 18:16:29] [PID:7008] [shop_export.pl:1005] - >>>---< mig-studio.com.ua >--->>> conf_id: yml
+[25/07/2016 18:16:31] [PID:7009] [shop_export.pl:994] - Child started. Your worker is 7009
+[25/07/2016 18:16:31] [PID:7009] [shop_export.pl:1019] - START
+[25/07/2016 18:16:31] [PID:7009] [shop_export.pl:1022] - Beginning of the sub export_goods
+[25/07/2016 18:16:32] [PID:7009] [shop_export.pl:1029] - Script gonna finish code 0
+[25/07/2016 18:16:32] [PID:7009] [shop_export.pl:176] - Works ends. 0
+[PID:6724] [shop_export.pl:2562] - INFO: =======================================[16/08/2020 18:24:33] [PID:6724] [UWorkers.pm:307] - INFO: Added worker 6725
+[PID:6724] [shop_export.pl:2613] - INFO: Worker 6725 runned for >>>---< mig-studio.com.ua >--->>> conf_id: yml[PID:6725] [shop_export.pl:2605] - INFO: Child started. Your worker 6725 started[PID:6725] [shop_export.pl:2629] - INFO: Beginning of the sub export_goods[PID:6725] [shop_export.pl:2636] - INFO: Update auto-upload time[PID:6725] [shop_export.pl:2671] - INFO: Script gonna finish code 0

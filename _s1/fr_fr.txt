@@ -1,0 +1,2 @@
+1|0|1|1|1112265867|Test category|
+2|1|0|1|1112265871|Test forum|Test forum description|1||0|0|0|0|0|||0|||0|

@@ -1,0 +1,11 @@
+%param=(
+	0 => {
+		'hide_row_select' => '0',
+		'price_colum' => '-1',
+		'hide_price_data' => '0',
+		'hide_empty_row' => '0',
+		'price_curr' => '0',
+		'cnt_for_data' => '2',
+		'use_sheet_name' => '0',
+	},
+);
