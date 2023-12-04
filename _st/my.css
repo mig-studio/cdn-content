@@ -1,0 +1,122 @@
+@import '/css/main.css';
+@import '/css/colors.css';
+@import '/css/slider.css';
+@import '/css/media.css';
+.catalog-item > a { 
+width: 200px; 
+float: left; 
+clear: left; 
+margin-top: 20px; 
+} 
+
+.catalog-item > h3 > a { 
+margin-left: -200px; 
+}
+
+.custom-select {
+ position: relative;
+ font-family: Arial;
+ float:left;
+ width:65px;
+ margin-left: -10px;
+}
+
+.custom-select select {
+ display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+ background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+ position: absolute;
+ content: "";
+ top: 14px;
+ right: 10px;
+ width: 0;
+ height: 0;
+ border: 6px solid transparent;
+ border-color: #b9b9b9 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+ border-color: transparent transparent #b9b9b9 transparent;
+ top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+ padding: 8px 16px;
+ border: 2px solid transparent;
+ border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+ cursor: pointer;
+}
+
+.select-selected {
+ color: #ffffff;
+}
+
+/* Style items (options): */
+.select-items {
+ background:#191919;
+ text-shadow:1px 1px 0 #191919;
+ position: absolute;
+ color: #b9b9b9;
+ text-decoration: none;
+ top: 100%;
+ left: 0;
+ right: 0;
+ z-index: 99;
+ width: 75px;
+ transition: all 0.2s ease-in;
+ transform: translateY(0%);
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+ visibility: hidden;
+ opacity: 0;
+ transform: translateY(-40%);
+ transition: all linear 0.4s, opacity 0.45s;
+}
+
+.select-items div:hover, .same-as-selected {
+ border-top-color: #ecbb00!important;
+ background:#222;
+ color:whitesmoke;
+ text-shadow:1px 1px 0 #191919;
+ transition: all .2s, opacity .2s, transform .2s ease-in;
+ border-top-width: 2px;
+}
+
+@media screen and (max-width: 769px){
+ .lang-switch-mobile {
+ position: absolute!important;
+ z-index: 2000!important;
+ left: -5px!important;
+ background-color: black!important;
+ width: 103px!important;
+ height: 43px!important;
+ border-radius: 9px!important;
+ }
+ 
+ .desktop-switcher {
+ margin-top: 4px!important;
+ }
+ 
+ .earth {
+ margin-left: 16px!important;
+ }
+ 
+ .select-items {
+ left: -28px!important;
+ width: 103px!important;
+ text-align: center!important;
+ -webkit-text-align: center!important; /* Webkit Prefix */
+ -moz-text-align: center!important; /* Mozilla Prefix */
+ }
+}

@@ -1,0 +1,148 @@
+/* ------ yellow ------- */
+body.st-yellow a,body.st-yellow .sidebox li a:hover,body.st-yellow .sidebox .catsTable td a:hover,body.st-yellow .sidebox .catsTable td a.catNameActive,body.st-yellow .sidebox li a.current-item {color:#e39400;}
+body.st-yellow #over-color {background-image:url(../img/colors/yellow/bg.png);}
+body.st-yellow #over-color div {background:url(../img/colors/yellow/overlay.png) center 0 no-repeat;}
+body.st-yellow #catmenu ul li a span.menu-line {background:#ecbb00;}
+body.st-yellow #user-menu .user-box span a span {background-image:url(../img/colors/yellow/user-icons.png);}
+body.st-yellow .site-descr {color:#333;}
+body.st-yellow #search .search-box,body.st-yellow #search .schBtn input {background-image:url(../img/colors/yellow/search.png);}
+body.st-yellow .uTL .uTl_timer .uTl_overlay,body.st-yellow .uTL .uTl_ctrls .uTl_btns li a {background-image:url(../img/slider/btns_yellow.png);}
+body.st-yellow .uTL .uTl_slides .uTl_spinner,body.st-yellow .uTL .uTl_thumb div {background-image:url(../img/slider/spinner_yellow.gif);}
+body.st-yellow .sidetitle {background-image:url(../img/colors/yellow/side-title.png);}
+body.st-yellow .sidebox .catsTable td a {background-image:url(../img/colors/yellow/bullets.png);}
+body.st-yellow button.uttb .uttbl,body.st-yellow button.uttb .uttbr,body.st-yellow button.uttb .uttbm {background-image:url(../img/niceforms/btn_yellow.png);}
+body.st-yellow button.uttb_hover .uttbm {text-shadow:1px 1px 0 #aa8c19;}
+body.st-yellow .fileinput .filebtn,body.st-yellow .fileinput .chs-file,body.st-yellow .fileinput .flinimg {background-image:url(../img/niceforms/choose-file_yellow.png);}
+body.st-yellow .uttsim,body.st-yellow .uttsi,body.st-yellow .uttsw a.uttso {background-image:url(../img/niceforms/select_yellow.png);}
+body.st-yellow .checkbox img {background-image:url(../img/niceforms/checkbox_yellow.png);}
+body.st-yellow .radio img {background-image:url(../img/niceforms/radio_yellow.png);}
+body.st-yellow #top-lnk {background-image:url(../img/colors/yellow/top-btn.png);}
+body.st-yellow #bottom .radio img {background-image:url(../img/niceforms/dark/radio_yellow.png);}
+body.st-yellow #bottom .checkbox img {background-image:url(../img/niceforms/dark/checkbox_yellow.png);}
+body.st-yellow #bottom .uttsim,body.st-yellow #bottom .uttsi,body.st-yellow #bottom .uttsw a.uttso {background-image:url(../img/niceforms/dark/select_yellow.png);}
+body.st-yellow #bottom .fileinput .flinimg,body.st-yellow #bottom .fileinput .filebtn,body.st-yellow #bottom .fileinput .chs-file {background-image:url(../img/niceforms/dark/choose-file_yellow.png);}
+body.st-yellow .botbox .sidetitle {background-image:url(../img/colors/yellow/dside-title.png);}
+body.st-yellow .botbox a {color:#e9ae0a;}
+body.st-yellow .post-ttl,body.st-yellow .post-left .post-hr {border-color:#e39400;}
+body.st-yellow .post-read {background-color:#e39400;}
+body.st-yellow #casing .u-star-rating-12,body.st-yellow #casing .u-star-rating-12 li a:hover,body.st-yellow #casing .u-star-rating-12 li.u-current-rating {background-image:url(../img/colors/yellow/rating.png);}
+body.st-yellow .gTableSubTop {background-color:#e39500;background-image:url(../img/colors/yellow/overlay.png);border-color:#ca8500;text-shadow:1px 1px 0 #ca8500;}
+/* ------ cyan ------- */
+body.st-cyan a,body.st-cyan .sidebox li a:hover,body.st-cyan .sidebox .catsTable td a:hover,body.st-cyan .sidebox .catsTable td a.catNameActive,body.st-cyan .sidebox li a.current-item {color:#0092a2;}
+body.st-cyan #over-color {background-image:url(../img/colors/cyan/bg.png);}
+body.st-cyan #over-color div {background:url(../img/colors/cyan/overlay.png) center 0 no-repeat;}
+body.st-cyan #catmenu ul li a span.menu-line {background:#00cdec;}
+body.st-cyan #user-menu .user-box span a span {background-image:url(../img/colors/cyan/user-icons.png);}
+body.st-cyan .site-descr {color:#ddd;}
+body.st-cyan #search .search-box,body.st-cyan #search .schBtn input {background-image:url(../img/colors/cyan/search.png);}
+body.st-cyan .uTL .uTl_timer .uTl_overlay,body.st-cyan .uTL .uTl_ctrls .uTl_btns li a {background-image:url(../img/slider/btns_cyan.png);}
+body.st-cyan .uTL .uTl_slides .uTl_spinner,body.st-cyan .uTL .uTl_thumb div {background-image:url(../img/slider/spinner_cyan.gif);}
+body.st-cyan .sidetitle {background-image:url(../img/colors/cyan/side-title.png);}
+body.st-cyan .sidebox li a,body.st-cyan .sidebox .catsTable td a {background-image:url(../img/colors/cyan/bullets.png);}
+body.st-cyan button.uttb .uttbl,body.st-cyan button.uttb .uttbr,body.st-cyan button.uttb .uttbm {background-image:url(../img/niceforms/btn_cyan.png);}
+body.st-cyan button.uttb_hover .uttbm {text-shadow:1px 1px 0 #006d7c;}
+body.st-cyan .fileinput .filebtn,body.st-cyan .fileinput .chs-file,body.st-cyan .fileinput .flinimg {background-image:url(../img/niceforms/choose-file_cyan.png);}
+body.st-cyan .uttsim,body.st-cyan .uttsi,body.st-cyan .uttsw a.uttso {background-image:url(../img/niceforms/select_cyan.png);}
+body.st-cyan .checkbox img {background-image:url(../img/niceforms/checkbox_cyan.png);}
+body.st-cyan .radio img {background-image:url(../img/niceforms/radio_cyan.png);}
+body.st-cyan #top-lnk {background-image:url(../img/colors/cyan/top-btn.png);}
+body.st-cyan #bottom .radio img {background-image:url(../img/niceforms/dark/radio_cyan.png);}
+body.st-cyan #bottom .checkbox img {background-image:url(../img/niceforms/dark/checkbox_cyan.png);}
+body.st-cyan #bottom .uttsim,body.st-cyan #bottom .uttsi,body.st-cyan #bottom .uttsw a.uttso {background-image:url(../img/niceforms/dark/select_cyan.png);}
+body.st-cyan #bottom .fileinput .flinimg,body.st-cyan #bottom .fileinput .filebtn,body.st-cyan #bottom .fileinput .chs-file {background-image:url(../img/niceforms/dark/choose-file_cyan.png);}
+body.st-cyan .botbox .sidetitle {background-image:url(../img/colors/cyan/dside-title.png);}
+body.st-cyan .botbox a {color:#2dc6dd;}
+body.st-cyan .post-ttl,body.st-cyan .post-left .post-hr {border-color:#0092a2;}
+body.st-cyan .post-read {background-color:#0092a2;}
+body.st-cyan #casing .u-star-rating-12,body.st-cyan #casing .u-star-rating-12 li a:hover,body.st-cyan #casing .u-star-rating-12 li.u-current-rating {background-image:url(../img/colors/cyan/rating.png);}
+body.st-cyan .gTableSubTop {background-color:#006e83;background-image:url(../img/colors/cyan/overlay.png);border-color:#005d6f;text-shadow:1px 1px 0 #005d6f;}
+/* ------ red ------- */
+body.st-red a,body.st-red .sidebox li a:hover,body.st-red .sidebox .catsTable td a:hover,body.st-red .sidebox .catsTable td a.catNameActive,body.st-red .sidebox li a.current-item {color:#a10000;}
+body.st-red #over-color {background-image:url(../img/colors/red/bg.png);}
+body.st-red #over-color div {background:url(../img/colors/red/overlay.png) center 0 no-repeat;}
+body.st-red #catmenu ul li a span.menu-line {background:#d60000;}
+body.st-red #user-menu .user-box span a span {background-image:url(../img/colors/red/user-icons.png);}
+body.st-red .site-descr {color:#ddd;}
+body.st-red #search .search-box,body.st-red #search .schBtn input {background-image:url(../img/colors/red/search.png);}
+body.st-red .uTL .uTl_timer .uTl_overlay,body.st-red .uTL .uTl_ctrls .uTl_btns li a {background-image:url(../img/slider/btns_red.png);}
+body.st-red .uTL .uTl_slides .uTl_spinner,body.st-red .uTL .uTl_thumb div {background-image:url(../img/slider/spinner_red.gif);}
+body.st-red .sidetitle {background-image:url(../img/colors/red/side-title.png);}
+body.st-red .sidebox li a,body.st-red .sidebox .catsTable td a {background-image:url(../img/colors/red/bullets.png);}
+body.st-red button.uttb .uttbl,body.st-red button.uttb .uttbr,body.st-red button.uttb .uttbm {background-image:url(../img/niceforms/btn_red.png);}
+body.st-red button.uttb_hover .uttbm {text-shadow:1px 1px 0 #860000;}
+body.st-red .fileinput .filebtn,body.st-red .fileinput .chs-file,body.st-red .fileinput .flinimg {background-image:url(../img/niceforms/choose-file_red.png);}
+body.st-red .uttsim,body.st-red .uttsi,body.st-red .uttsw a.uttso {background-image:url(../img/niceforms/select_red.png);}
+body.st-red .checkbox img {background-image:url(../img/niceforms/checkbox_red.png);}
+body.st-red .radio img {background-image:url(../img/niceforms/radio_red.png);}
+body.st-red #top-lnk {background-image:url(../img/colors/red/top-btn.png);}
+body.st-red #bottom .radio img {background-image:url(../img/niceforms/dark/radio_red.png);}
+body.st-red #bottom .checkbox img {background-image:url(../img/niceforms/dark/checkbox_red.png);}
+body.st-red #bottom .uttsim,body.st-red #bottom .uttsi,body.st-red #bottom .uttsw a.uttso {background-image:url(../img/niceforms/dark/select_red.png);}
+body.st-red #bottom .fileinput .flinimg,body.st-red #bottom .fileinput .filebtn,body.st-red #bottom .fileinput .chs-file {background-image:url(../img/niceforms/dark/choose-file_red.png);}
+body.st-red .botbox .sidetitle {background-image:url(../img/colors/red/dside-title.png);}
+body.st-red .botbox a {color:#e41818;}
+body.st-red .post-ttl,body.st-red .post-left .post-hr {border-color:#a10000;}
+body.st-red .post-read {background-color:#a10000;}
+body.st-red #casing .u-star-rating-12,body.st-red #casing .u-star-rating-12 li a:hover,body.st-red #casing .u-star-rating-12 li.u-current-rating {background-image:url(../img/colors/red/rating.png);}
+body.st-red .gTableSubTop {background-color:#b80000;background-image:url(../img/colors/red/overlay.png);border-color:#990000;text-shadow:1px 1px 0 #990000;}
+/* ------ green ------- */
+body.st-green a,body.st-green .sidebox li a:hover,body.st-green .sidebox .catsTable td a:hover,body.st-green .sidebox .catsTable td a.catNameActive,body.st-green .sidebox li a.current-item {color:#008900;}
+body.st-green #over-color {background-image:url(../img/colors/green/bg.png);}
+body.st-green #over-color div {background:url(../img/colors/green/overlay.png) center 0 no-repeat;}
+body.st-green #catmenu ul li a span.menu-line {background:#6fec00;}
+body.st-green #user-menu .user-box span a span {background-image:url(../img/colors/green/user-icons.png);}
+body.st-green .site-descr {color:#ddd;}
+body.st-green #search .search-box,body.st-green #search .schBtn input {background-image:url(../img/colors/green/search.png);}
+body.st-green .uTL .uTl_timer .uTl_overlay,body.st-green .uTL .uTl_ctrls .uTl_btns li a {background-image:url(../img/slider/btns_green.png);}
+body.st-green .uTL .uTl_slides .uTl_spinner,body.st-green .uTL .uTl_thumb div {background-image:url(../img/slider/spinner_green.gif);}
+body.st-green .sidetitle {background-image:url(../img/colors/green/side-title.png);}
+body.st-green .sidebox li a,body.st-green .sidebox .catsTable td a {background-image:url(../img/colors/green/bullets.png);}
+body.st-green button.uttb .uttbl,body.st-green button.uttb .uttbr,body.st-green button.uttb .uttbm {background-image:url(../img/niceforms/btn_green.png);}
+body.st-green button.uttb_hover .uttbm {text-shadow:1px 1px 0 #008600;}
+body.st-green .fileinput .filebtn,body.st-green .fileinput .chs-file,body.st-green .fileinput .flinimg {background-image:url(../img/niceforms/choose-file_green.png);}
+body.st-green .uttsim,body.st-green .uttsi,body.st-green .uttsw a.uttso {background-image:url(../img/niceforms/select_green.png);}
+body.st-green .checkbox img {background-image:url(../img/niceforms/checkbox_green.png);}
+body.st-green .radio img {background-image:url(../img/niceforms/radio_green.png);}
+body.st-green #top-lnk {background-image:url(../img/colors/green/top-btn.png);}
+body.st-green #bottom .radio img {background-image:url(../img/niceforms/dark/radio_green.png);}
+body.st-green #bottom .checkbox img {background-image:url(../img/niceforms/dark/checkbox_green.png);}
+body.st-green #bottom .uttsim,body.st-green #bottom .uttsi,body.st-green #bottom .uttsw a.uttso {background-image:url(../img/niceforms/dark/select_green.png);}
+body.st-green #bottom .fileinput .flinimg,body.st-green #bottom .fileinput .filebtn,body.st-green #bottom .fileinput .chs-file {background-image:url(../img/niceforms/dark/choose-file_green.png);}
+body.st-green .botbox .sidetitle {background-image:url(../img/colors/green/dside-title.png);}
+body.st-green .botbox a {color:#3bbc14;}
+body.st-green .post-ttl,body.st-green .post-left .post-hr {border-color:#008900;}
+body.st-green .post-read {background-color:#008900;}
+body.st-green #casing .u-star-rating-12,body.st-green #casing .u-star-rating-12 li a:hover,body.st-green #casing .u-star-rating-12 li.u-current-rating {background-image:url(../img/colors/green/rating.png);}
+body.st-green .gTableSubTop {background-color:#00a700;background-image:url(../img/colors/green/overlay.png);border-color:#008600;text-shadow:1px 1px 0 #008600;}
+/* ------ violet ------- */
+body.st-violet a,body.st-violet .sidebox li a:hover,body.st-violet .sidebox .catsTable td a:hover,body.st-violet .sidebox .catsTable td a.catNameActive,body.st-violet .sidebox li a.current-item {color:#ac00b2;}
+body.st-violet #over-color {background-image:url(../img/colors/violet/bg.png);}
+body.st-violet #over-color div {background:url(../img/colors/violet/overlay.png) center 0 no-repeat;}
+body.st-violet #catmenu ul li a span.menu-line {background:#e400ec;}
+body.st-violet #user-menu .user-box span a span {background-image:url(../img/colors/violet/user-icons.png);}
+body.st-violet .site-descr {color:#ddd;}
+body.st-violet #search .search-box,body.st-violet #search .schBtn input {background-image:url(../img/colors/violet/search.png);}
+body.st-violet .uTL .uTl_timer .uTl_overlay,body.st-violet .uTL .uTl_ctrls .uTl_btns li a {background-image:url(../img/slider/btns_violet.png);}
+body.st-violet .uTL .uTl_slides .uTl_spinner,body.st-violet .uTL .uTl_thumb div {background-image:url(../img/slider/spinner_violet.gif);}
+body.st-violet .sidetitle {background-image:url(../img/colors/violet/side-title.png);}
+body.st-violet .sidebox li a,body.st-violet .sidebox .catsTable td a {background-image:url(../img/colors/violet/bullets.png);}
+body.st-violet button.uttb .uttbl,body.st-violet button.uttb .uttbr,body.st-violet button.uttb .uttbm {background-image:url(../img/niceforms/btn_violet.png);}
+body.st-violet button.uttb_hover .uttbm {text-shadow:1px 1px 0 #6e0072;}
+body.st-violet .fileinput .filebtn,body.st-violet .fileinput .chs-file,body.st-violet .fileinput .flinimg {background-image:url(../img/niceforms/choose-file_violet.png);}
+body.st-violet .uttsim,body.st-violet .uttsi,body.st-violet .uttsw a.uttso {background-image:url(../img/niceforms/select_violet.png);}
+body.st-violet .checkbox img {background-image:url(../img/niceforms/checkbox_violet.png);}
+body.st-violet .radio img {background-image:url(../img/niceforms/radio_violet.png);}
+body.st-violet #top-lnk {background-image:url(../img/colors/violet/top-btn.png);}
+body.st-violet #bottom .radio img {background-image:url(../img/niceforms/dark/radio_violet.png);}
+body.st-violet #bottom .checkbox img {background-image:url(../img/niceforms/dark/checkbox_violet.png);}
+body.st-violet #bottom .uttsim,body.st-violet #bottom .uttsi,body.st-violet #bottom .uttsw a.uttso {background-image:url(../img/niceforms/dark/select_violet.png);}
+body.st-violet #bottom .fileinput .flinimg,body.st-violet #bottom .fileinput .filebtn,body.st-violet #bottom .fileinput .chs-file {background-image:url(../img/niceforms/dark/choose-file_violet.png);}
+body.st-violet .botbox .sidetitle {background-image:url(../img/colors/violet/dside-title.png);}
+body.st-violet .botbox a {color:#db35e1;}
+body.st-violet .post-ttl,body.st-violet .post-left .post-hr {border-color:#ac00b2;}
+body.st-violet .post-read {background-color:#ac00b2;}
+body.st-violet #casing .u-star-rating-12,body.st-violet #casing .u-star-rating-12 li a:hover,body.st-violet #casing .u-star-rating-12 li.u-current-rating {background-image:url(../img/colors/violet/rating.png);}
+body.st-violet .gTableSubTop {background-color:#900098;background-image:url(../img/colors/violet/overlay.png);border-color:#720078;text-shadow:1px 1px 0 #720078;}
+/* ------ common ------- */
+body.st-yellow .sidebox li a,body.st-red .sidebox li a,body.st-cyan .sidebox li a,body.st-green .sidebox li a,body.st-violet .sidebox li a {color:#666;}
+body.st-yellow .sidebox li li a,body.st-red .sidebox li li a,body.st-cyan .sidebox li li a,body.st-green .sidebox li li a,body.st-violet .sidebox li li a {background-image:none;}
