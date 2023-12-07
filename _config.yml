@@ -7,7 +7,7 @@ description: A brief description of your site
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: ['node_modules', 'vendor', '.sass-cache', '_site', '.git', '.github']
+exclude: ['node_modules', 'vendor', '.sass-cache', '_site', '.git', '.github', '.s', '_cs','_nw','_ph','_pu','_s1','_sh','_si','_spt','_st']
 
 # Cache control configurations
 defaults:
@@ -15,8 +15,3 @@ defaults:
       path: ""
     values:
       cache_control: "max-age=604800"
-
-# Include directories starting with underscores (_) and dots (.)
-include:
-  - _*/
-  - .*/
