@@ -1,0 +1,22 @@
+# _config.yml
+
+# Site settings
+title: Your Jekyll Site
+description: A brief description of your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude: ['node_modules', 'vendor', '.sass-cache', '_site', '.git', '.github']
+
+# Cache control configurations
+defaults:
+  - scope:
+      path: ""
+    values:
+      cache_control: "max-age=604800"
+
+# Include directories starting with underscores (_) and dots (.)
+include:
+  - _*/
+  - .*/
