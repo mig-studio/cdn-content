@@ -7,7 +7,8 @@ description: A brief description of your site
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: ['node_modules', 'vendor', '.sass-cache', '_site', '.git', '.github', '.s', '_cs','_nw','_ph','_pu','_s1','_sh','_si','_spt','_st']
+exclude: ['node_modules', 'vendor', '.sass-cache', '_site', '.git', '.github']
+include: ['.s', '_cs','_nw','_ph','_pu','_s1','_sh','_si','_spt','_st']
 
 # Cache control configurations
 defaults:
