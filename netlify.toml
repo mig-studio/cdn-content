@@ -6,16 +6,6 @@
   for = "*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
-[[headers]]
-  for = "bundle_gzip.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
-    Content-Encoding = "gzip, deflate, br"
-    Content-Length = "totalBytes"
-[[headers]]
-  for = "bundle.js.gz"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
     Content-Encoding = "gzip, deflate, br"
     Content-Length = "totalBytes"
 [[headers]]
