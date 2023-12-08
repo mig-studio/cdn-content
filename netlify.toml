@@ -10,6 +10,10 @@
   for = "/bundle/bundle.js.gz"                                                             
   [headers.values]
     Content-Encoding = "gzip, deflate, br"
+[[headers]]                                                                      
+  for = "/bundle/bundle_gzip.js"                                                             
+  [headers.values]
+    Content-Encoding = "gzip, deflate, br"
 [[headers]]
   for = "*.css"
   [headers.values]
