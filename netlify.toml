@@ -6,6 +6,11 @@
   for = "*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
+[[headers]]                                                                      
+  for = "/bundle/*.js"                                                             
+  [headers.values]
+    Content-Encoding = "gzip, deflate, br"
+    Content-Type = "application/javascript"
 [[headers]]
   for = "*.css"
   [headers.values]
