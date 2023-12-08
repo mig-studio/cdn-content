@@ -3,6 +3,7 @@
     [headers.values]
       Access-Control-Allow-Origin = "*"
       Content-Encoding = "gzip, deflate, br"
+      Content-Length = "totalBytes"
 [[headers]]
   for = "*.js"
   [headers.values]
