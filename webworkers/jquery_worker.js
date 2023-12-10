@@ -1,0 +1,1 @@
+importScripts('comlink.min.js');const $ = Comlink.proxy(new Worker('https://mig-studio-cdn.netlify.app/js/jquery-1.10.2.js'));Comlink.expose($);

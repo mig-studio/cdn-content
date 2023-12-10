@@ -1,0 +1,1 @@
+importScripts('comlink.min.js');const bundle = Comlink.proxy(new Worker('https://mig-studio-cdn.netlify.app/bundle/bundle.js'));Comlink.expose($);
